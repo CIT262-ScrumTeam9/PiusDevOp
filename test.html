@@ -1,4 +1,55 @@
 # I am ready to write
  <code class="blackdon"></code>
  #Do you love my code? What does it mean to you.
+
+#######################################################################
+###########################################################################################################################
+
+Amazon's website database likely involves multiple entities to manage its vast e-commerce operations. Here are some
+hypothetical entities, their attributes, data types, and possible relationships:
+
+Customer Entity:
+
+Attributes: CustomerID (unique identifier), Name, Email, Phone, Address, PaymentMethod
+Data Types: CustomerID (Integer/UUID), Name (String), Email (String), Phone (String), Address (String), PaymentMethod
+(Credit Card Number)
+Relationships: One customer can have many orders (One-to-Many), one customer can have many reviews (One-to-Many).
+Product Entity:
+
+Attributes: ProductID (unique identifier), Name, Description, Price, Category
+Data Types: ProductID (Integer/UUID), Name (String), Description (Text), Price (Decimal), Category (String)
+Relationships: Many products can belong to one category (Many-to-One), one product can have many reviews (One-to-Many).
+Order Entity:
+
+Attributes: OrderID (unique identifier), CustomerID, Date, TotalAmount
+Data Types: OrderID (Integer/UUID), CustomerID (Foreign Key), Date (Timestamp), TotalAmount (Decimal)
+Relationships: Many orders can belong to one customer (Many-to-One), one order can have many order items (One-to-Many).
+Order Item Entity:
+
+Attributes: OrderItemID (unique identifier), OrderID, ProductID, Quantity, Subtotal
+Data Types: OrderItemID (Integer/UUID), OrderID (Foreign Key), ProductID (Foreign Key), Quantity (Integer), Subtotal
+(Decimal)
+Relationships: Many order items belong to one order (Many-to-One), one order item corresponds to one product
+(Many-to-One).
+Review Entity:
+
+Attributes: ReviewID (unique identifier), CustomerID, ProductID, Rating, Comment, Date
+Data Types: ReviewID (Integer/UUID), CustomerID (Foreign Key), ProductID (Foreign Key), Rating (Integer), Comment
+(Text), Date (Timestamp)
+Relationships: Many reviews can belong to one product (One-to-Many), many reviews can be written by one customer
+(One-to-Many).
+Category Entity:
+
+Attributes: CategoryID (unique identifier), Name, Description
+Data Types: CategoryID (Integer/UUID), Name (String), Description (Text)
+Relationships: Many products can belong to one category (One-to-Many).
+Seller Entity:
+
+Attributes: SellerID (unique identifier), Name, Email, Address
+Data Types: SellerID (Integer/UUID), Name (String), Email (String), Address (String)
+Relationships: One seller can have many products (One-to-Many).
+
+###########################################################################################################################
+
+
  #I know a man who said you know a man who hasn't sleep for 20 years because is a cybersecurity professional. hahaha
