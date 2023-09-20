@@ -1,13 +1,14 @@
 
 
-
 import random
+
 
 def roll_dice():
     """Simulate rolling two dice and return the sum."""
     die1 = random.randint(1, 6)
     die2 = random.randint(1, 6)
     return die1 + die2
+
 
 def main():
     print("Welcome to the Dice Game!")
@@ -23,11 +24,12 @@ def main():
 
     actual_sum = roll_dice()
     print(f"The dice rolls are: {actual_sum}")
-    
+
     if guess == actual_sum:
         print("Congratulations! You guessed correctly.")
     else:
         print("Sorry, you guessed wrong. Try again!")
+
 
 if __name__ == "__main__":
     main()
