@@ -4,7 +4,7 @@
   "description": "Guardian Tech Support Repository for app production.",
   "main": "index.js",
   "scripts": {
-    "test": "npm -v"
+    "start": "expo start"
   },
   "keywords": [
     "tech",
@@ -13,4 +13,5 @@
   ],
   "author": "Pius Samie Henry",
   "license": "ISC"
+
 }
