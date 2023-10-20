@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CIT262-ScrumTeam9/PiusDevOp/issues"
   },
-  "homepage": "https://github.com/CIT262-ScrumTeam9/PiusDevOp#readme"
+  "homepage": "https://github.com/CIT262-ScrumTeam9/PiusDevOp#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
 }

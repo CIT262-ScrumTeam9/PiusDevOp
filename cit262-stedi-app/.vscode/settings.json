@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5501,
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "search.useIgnoreFiles": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "npm.enableRunFromFolder": true,
+    "git.alwaysSignOff": true
+}
