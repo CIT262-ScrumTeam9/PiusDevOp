@@ -1,4 +1,4 @@
-// Define a function to return the name
+// Function to return your name
 function getName() {
   return "Pius";
 }
