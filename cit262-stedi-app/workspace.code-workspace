@@ -1,6 +1,12 @@
 {
 	"folders": [
 		{
+<<<<<<< HEAD
+=======
+			"path": "../ReactNativeTest"
+		},
+		{
+>>>>>>> 2eb0b13b2f0175b6a0900a4ecfda0536bbb413c9
 			"path": "."
 		}
 	],

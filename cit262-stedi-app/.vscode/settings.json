@@ -3,8 +3,12 @@
     "search.exclude": {
         "**/node_modules": false
     },
+<<<<<<< HEAD
     "search.useIgnoreFiles": true,
     "git.alwaysShowStagedChangesResourceGroup": true,
     "npm.enableRunFromFolder": true,
     "git.alwaysSignOff": true
+=======
+    "search.useIgnoreFiles": true
+>>>>>>> 2eb0b13b2f0175b6a0900a4ecfda0536bbb413c9
 }

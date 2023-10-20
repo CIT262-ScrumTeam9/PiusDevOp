@@ -36,9 +36,17 @@ export default function Login( props ) {
   };
   return(
       <View style={styles.container}>
+<<<<<<< HEAD
           <Text>This is the Login Screen</Text>
+=======
+          <Text>This is the Login Screen</Text>Enable-LocalUser  
+>>>>>>> 2eb0b13b2f0175b6a0900a4ecfda0536bbb413c9
           <CustomButton  name="Pius" onPress={()=> handlePress("Pius") }/>
       </View>
 
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2eb0b13b2f0175b6a0900a4ecfda0536bbb413c9
