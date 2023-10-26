@@ -39,5 +39,6 @@
     "build-ios-preview": "rm ./package-lock.json ; npx eas-cli build --profile preview --platform ios",
     "run-preview": "npx expo start --no-dev --minify"
   },
+  "type": "module",
   "private": true
 }
