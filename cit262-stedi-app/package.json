@@ -33,7 +33,7 @@
     "@babel/core": "^7.20.0"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "jest",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
