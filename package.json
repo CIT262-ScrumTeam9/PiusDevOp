@@ -4,7 +4,7 @@
   "description": "Pius github repository",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
