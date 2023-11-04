@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0",
+    "mocha": "^10.2.0",
     "node-fetch2": "^1.6.3"
   }
 }
