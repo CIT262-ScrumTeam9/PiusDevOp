@@ -15,7 +15,7 @@ space:
       containers:
         - name: pius-api
         # This image is going to be the path to the image you create in a future step
-        image: 
+        image: us-docker.pkg.dev/my-devops-team-404512/pius-api
         ports:
           - containerPort: 3000
         resources:
